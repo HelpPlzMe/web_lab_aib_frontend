@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content:space-between;
+}
+.Area{
+    width: 200px;
+    height: 200px;
+    margin-right: 60px
+}
+
+.inpt {
+    width: 200px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    height: 300px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+#generateButton {
+    width: 120px;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    &:active{
+        opacity:0.5;
+    }
+}
